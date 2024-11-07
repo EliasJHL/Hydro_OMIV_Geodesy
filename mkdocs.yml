@@ -1,0 +1,24 @@
+site_name: Documentation Extenso
+
+nav:
+  - Accueil: index.md
+  - Installation & configuration :
+    - Installation: installation.md
+    - Environnement: environnement.md
+    - Configuration: config.md
+    - Déploiement des application: visualisation.md
+  - Les fonctions:
+    - map_ui(. . .): 'map_ui.md'
+  - Développement:
+    - Base de données: 'config_dev.md'
+    - API: 'api.md'
+    - Parsing: 'parsing.md'
+    - Déploiement: 'deploy.md'
+  - Informations :
+    - A propos: 'about.md'
+  
+theme:
+  name: readthedocs
+  locale: fr
+
+repo_url: https://github.com/example/repository/
